@@ -1,0 +1,39 @@
+/* LARGE SCREEN DEVICES */
+@media (min-width: 768px){
+    ul li{
+        margin-right: 20%;
+    }
+    #collapser{
+        max-width: 20%;
+    }
+
+}
+
+
+/* MEDIUM SCREEN DEVICES */
+@media (min-width: 576px) and (max-width: 768px){
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 180% !important;
+}
+ul li{
+    /* display: none; */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.container:nth-child(2){
+    margin-top: 3%;
+}
+p{
+    font-size: 1.3rem;
+    text-align: start;
+    line-height: 1.6;
+}
+h2{
+    font-size: 1.9rem !important;
+}
+h1{
+    margin-bottom: 3%;
+}
