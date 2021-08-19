@@ -1,6 +1,7 @@
-/* LARGE SCREEN DEVICES */
+/* MEDIUM SCREEN DEVICES */
 @media (min-width: 768px){
     ul li{
+        /* display: none; */
         margin-right: 20%;
     }
     #collapser{
@@ -9,11 +10,6 @@
 
 }
 
-
-/* MEDIUM SCREEN DEVICES */
-@media (min-width: 576px) and (max-width: 768px){
-    
-}
 h1{
     font-weight: bold;
     font-size: 180% !important;
@@ -34,6 +30,19 @@ p{
 h2{
     font-size: 1.9rem !important;
 }
-h1{
-    margin-bottom: 3%;
+#chicken{
+    background: #16bac5;
+
+}
+#beef{
+    background: #f5ffc6;
+
+}
+#sushi{
+    background: #ff934f;
+
+
+}
+.row{
+    margin-top: 5%;
 }
